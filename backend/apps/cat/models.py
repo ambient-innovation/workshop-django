@@ -35,11 +35,12 @@ class Cat(CommonInfo):
         TABBY = 3, _('Getigert')
 
     name = models.CharField(_('Name'), max_length=50)
-    owner = models.ForeignKey(EmailUser, verbose_name=_('Besitzer'), on_delete=models.CASCADE)
-    current_hideout = models.ForeignKey(Hideout, verbose_name=_('Aktuelles Versteck'), null=True, blank=True,
-                                        on_delete=models.SET_NULL)
-    favourite_food = models.ManyToManyField(Food, verbose_name=_('Lieblingsessen'), related_name='cats')
+    owner = models.ForeignKey(EmailUser, verbose_name=_('Besitzer'), related_name='cats', on_delete=models.CASCADE)
+    current_hideout = models.ForeignKey(Hideout, verbose_name=_('Aktuelles Versteck'), related_name='cats',
+                                        null=True, blank=True, on_delete=models.SET_NULL)
+    favourite_foods = models.ManyToManyField(Food, verbose_name=_('Lieblingsessen'), related_name='cats')
     colour = models.PositiveSmallIntegerField(_('Farbe'), choices=ColourChoices.choices, default=ColourChoices.TABBY)
+    age = models.PositiveIntegerField(_('Alter'), default=7)
 
     objects = CatQuerySet.as_manager()
 

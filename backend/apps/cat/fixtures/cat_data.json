@@ -68,13 +68,14 @@
     "fields": {
       "created_at": "2021-02-17T10:18:44.240Z",
       "created_by": 1,
-      "lastmodified_at": "2021-02-17T10:43:39.070Z",
+      "lastmodified_at": "2021-02-17T10:47:34.019Z",
       "lastmodified_by": 1,
       "name": "Charlie",
-      "owner": 1,
+      "owner": 2,
       "current_hideout": 1,
       "colour": 3,
-      "favourite_food": [
+      "age": 7,
+      "favourite_foods": [
         1,
         2
       ]
@@ -86,14 +87,15 @@
     "fields": {
       "created_at": "2021-02-17T10:43:51.970Z",
       "created_by": 1,
-      "lastmodified_at": "2021-02-17T10:43:51.970Z",
+      "lastmodified_at": "2021-02-17T11:05:16.728Z",
       "lastmodified_by": 1,
       "name": "Henry",
       "owner": 1,
       "current_hideout": null,
       "colour": 3,
-      "favourite_food": [
-        5
+      "age": 7,
+      "favourite_foods": [
+        3
       ]
     }
   },
@@ -109,7 +111,8 @@
       "owner": 1,
       "current_hideout": 2,
       "colour": 1,
-      "favourite_food": [
+      "age": 7,
+      "favourite_foods": [
         4
       ]
     }
@@ -120,13 +123,14 @@
     "fields": {
       "created_at": "2021-02-17T10:44:25.101Z",
       "created_by": 1,
-      "lastmodified_at": "2021-02-17T10:44:25.101Z",
+      "lastmodified_at": "2021-02-17T10:51:37.575Z",
       "lastmodified_by": 1,
       "name": "Harry",
       "owner": 1,
       "current_hideout": 3,
-      "colour": 3,
-      "favourite_food": [
+      "colour": 2,
+      "age": 7,
+      "favourite_foods": [
         1,
         2,
         3,
@@ -147,7 +151,8 @@
       "owner": 1,
       "current_hideout": 2,
       "colour": 2,
-      "favourite_food": [
+      "age": 7,
+      "favourite_foods": [
         3
       ]
     }

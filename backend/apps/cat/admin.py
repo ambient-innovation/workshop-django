@@ -16,5 +16,5 @@ class FoodAdmin(admin.ModelAdmin):
 
 @admin.register(Cat)
 class CatAdmin(CommonInfoAdminMixin, admin.ModelAdmin):
-    list_display = ('name', 'owner', 'colour')
+    list_display = ('name', 'owner', 'colour', 'age')
     list_filter = ('owner',)
