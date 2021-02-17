@@ -1,5 +1,5 @@
 #!/bin/bash
-sleep 5                                           # Wait for DB to start
+sleep 10                                          # Wait for DB to start
 echo django shell commands
 python ./manage.py migrate                        # Apply database migrations
 python ./manage.py loaddata users                 # Apply fixtures

@@ -41,6 +41,7 @@ class Cat(CommonInfo):
     favourite_foods = models.ManyToManyField(Food, verbose_name=_('Lieblingsessen'), related_name='cats')
     colour = models.PositiveSmallIntegerField(_('Farbe'), choices=ColourChoices.choices, default=ColourChoices.TABBY)
     age = models.PositiveIntegerField(_('Alter'), default=7)
+    last_time_petted = models.DateTimeField(_('Letztes Mal gestreichelt'), null=True, blank=True)
 
     objects = CatQuerySet.as_manager()
 
