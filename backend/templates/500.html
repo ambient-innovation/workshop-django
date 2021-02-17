@@ -1,0 +1,19 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>500 - Internal server error</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="{% static 'img/index.ico' %}" sizes="48x48"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/errorpage.css' %}">
+</head>
+
+<body>
+<h1>500 - Internal server error</h1>
+<p>Sorry, but an error occured. The administrator was informed about this.</p>
+</body>
+
+</html>
+<!-- IE needs 512+ bytes: https://docs.microsoft.com/archive/blogs/ieinternals/friendly-http-error-pages -->

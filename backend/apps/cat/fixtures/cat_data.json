@@ -1,0 +1,155 @@
+[
+  {
+    "model": "cat.food",
+    "pk": 1,
+    "fields": {
+      "name": "Thunfisch"
+    }
+  },
+  {
+    "model": "cat.food",
+    "pk": 2,
+    "fields": {
+      "name": "Sahne"
+    }
+  },
+  {
+    "model": "cat.food",
+    "pk": 3,
+    "fields": {
+      "name": "Huhn"
+    }
+  },
+  {
+    "model": "cat.food",
+    "pk": 4,
+    "fields": {
+      "name": "Forelle"
+    }
+  },
+  {
+    "model": "cat.food",
+    "pk": 5,
+    "fields": {
+      "name": "Trockenfutter"
+    }
+  },
+  {
+    "model": "cat.hideout",
+    "pk": 1,
+    "fields": {
+      "name": "Schuhkarton"
+    }
+  },
+  {
+    "model": "cat.hideout",
+    "pk": 2,
+    "fields": {
+      "name": "Auf dem Schrank"
+    }
+  },
+  {
+    "model": "cat.hideout",
+    "pk": 3,
+    "fields": {
+      "name": "Katzenkorb"
+    }
+  },
+  {
+    "model": "cat.hideout",
+    "pk": 4,
+    "fields": {
+      "name": "Unter dem Sofa"
+    }
+  },
+  {
+    "model": "cat.cat",
+    "pk": 1,
+    "fields": {
+      "created_at": "2021-02-17T10:18:44.240Z",
+      "created_by": 1,
+      "lastmodified_at": "2021-02-17T10:43:39.070Z",
+      "lastmodified_by": 1,
+      "name": "Charlie",
+      "owner": 1,
+      "current_hideout": 1,
+      "colour": 3,
+      "favourite_food": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "cat.cat",
+    "pk": 2,
+    "fields": {
+      "created_at": "2021-02-17T10:43:51.970Z",
+      "created_by": 1,
+      "lastmodified_at": "2021-02-17T10:43:51.970Z",
+      "lastmodified_by": 1,
+      "name": "Henry",
+      "owner": 1,
+      "current_hideout": null,
+      "colour": 3,
+      "favourite_food": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "cat.cat",
+    "pk": 3,
+    "fields": {
+      "created_at": "2021-02-17T10:44:06.370Z",
+      "created_by": 1,
+      "lastmodified_at": "2021-02-17T10:44:06.370Z",
+      "lastmodified_by": 1,
+      "name": "William",
+      "owner": 1,
+      "current_hideout": 2,
+      "colour": 1,
+      "favourite_food": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "cat.cat",
+    "pk": 4,
+    "fields": {
+      "created_at": "2021-02-17T10:44:25.101Z",
+      "created_by": 1,
+      "lastmodified_at": "2021-02-17T10:44:25.101Z",
+      "lastmodified_by": 1,
+      "name": "Harry",
+      "owner": 1,
+      "current_hideout": 3,
+      "colour": 3,
+      "favourite_food": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "model": "cat.cat",
+    "pk": 5,
+    "fields": {
+      "created_at": "2021-02-17T10:44:48.649Z",
+      "created_by": 1,
+      "lastmodified_at": "2021-02-17T10:44:48.660Z",
+      "lastmodified_by": 1,
+      "name": "Lizzy",
+      "owner": 1,
+      "current_hideout": 2,
+      "colour": 2,
+      "favourite_food": [
+        3
+      ]
+    }
+  }
+]

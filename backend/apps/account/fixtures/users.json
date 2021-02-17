@@ -1,0 +1,32 @@
+[
+  {
+    "model": "account.emailuser",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$216000$GitLlBjhYyjx$nWCLVzqcIdKJKLbq3EnUUheAuqmFgoukBD39RZWtIec=",
+      "last_login": "2021-02-17T09:35:26.568Z",
+      "is_superuser": true,
+      "email": "catlady@ambient-innovation.com",
+      "first_name": "Emilia",
+      "last_name": "Catlady",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "account.emailuser",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$216000$nRTCy41mkSbb$QjJ/dRkOF+5HwmuuDtd6vr1LQQv7aBbduf2zBucEEJc=",
+      "last_login": null,
+      "is_superuser": false,
+      "email": "f.catberg@ambient-innovation.com",
+      "first_name": "Felicita",
+      "last_name": "Catberg",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

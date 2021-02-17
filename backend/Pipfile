@@ -1,0 +1,44 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+# django
+django = "==3.1.*"                           # django!
+ai-django-core = "==4.0.1"                   # Ambient Innovation core package
+mysqlclient = "==2.0.*"                      # MariaDB connector
+django-crispy-forms = "==1.11.0"             # Fancy, DRY forms
+python-dateutil = "==2.8.1"                  # Toolbox for working with dates
+# Async
+celery = "==4.4.7"                           # Async processing
+flower = "==0.9.7"                           # Async monitoring
+# Security
+django-axes = "==5.12.0"                     # Bruteforce security
+django-referrer-policy = "==1.0"             # Security middleware to avoid leaking Referer information to linked websites
+django-csp = "==3.7"                         # Security middleware for telling the browser not to load stuff from other websites
+# Logging
+django-db-logger = "==0.1.10"                # Database logging
+sentry-sdk = "==0.20.2"                      # Error logging to Sentry
+# Testing
+freezegun = "==1.1.0"                        # Mock time for tests
+model-bakery = "==1.2.1"                     # Model recipes
+# REST API
+djangorestframework = "==3.12.2"             # REST API
+django-cors-headers = "==3.7.0"              # Cross-Origin-Request headers
+django-filter = "==2.4.0"                    # Easy filtering in API views
+djangorestframework-camel-case = "==1.2.0"   # CamelCase for API output (nicer for JS)
+drf-yasg = "==1.20.0"                        # API auto-documentation
+django-ai-kit-auth = "==0.8.1"               # API Auth package
+# Deploy
+django-environ = "==0.4.5"                   # Enables environment variables in django settings
+whitenoise = "==5.2.0"                       # Serving static files
+django-storages = "==1.11.1"                 # Upload to S3 handler
+
+[dev-packages]
+flake8 = "*"                                 # Linting
+pep8-naming = "*"                            # PEP8 conform name linting
+django-debug-toolbar = "*"                   # django debug tool
+
+[requires]
+python_version = "3.8"
